@@ -143,6 +143,7 @@ bool Game_unittest::run()
         create_a_game_with_two_players() &&
         players_should_not_be_less_than_two_or_more_than_eight() &&
         names_should_be_shuffled() &&
-        number_of_played_rounds_should_be_twenty();
+        number_of_played_rounds_should_be_twenty() &&
+        order_of_players_should_not_change_at_each_round();
 
 }
