@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1390892768 source:/home/alberto/Devel/Monopoly/src/Board.cpp
+	<algorithm>
+	<iterator>
+	"Board.h"
+
+1390892477 /home/alberto/Devel/Monopoly/include/Board.h
+	<vector>
+	"Cell.h"
+
+1390858544 source:/home/alberto/Devel/Monopoly/src/GameBoard.cpp
+	"GameBoard.h"
+
+1390858537 /home/alberto/Devel/Monopoly/include/GameBoard.h
+	<Board.h>
+
+1390860570 source:/home/alberto/Devel/Monopoly/main.cpp
+	<iostream>
+	"GameBoard.h"
+	"Player.h"
+	"Player_unittest.h"
+	"Game_unittest.h"
+
+1390892731 /home/alberto/Devel/Monopoly/include/Cell.h
+
+1390892706 source:/home/alberto/Devel/Monopoly/src/Cell.cpp
+	"Cell.h"
+
+1390854367 source:/home/alberto/Devel/Monopoly/src/Die.cpp
+	"Die.h"
+
+1390893197 /home/alberto/Devel/Monopoly/include/Die.h
+	<cstdlib>
+
+1390858988 source:/home/alberto/Devel/Monopoly/src/FixedDie.cpp
+	"FixedDie.h"
+
+1390893235 /home/alberto/Devel/Monopoly/include/FixedDie.h
+	<Die.h>
+
+1390895466 source:/home/alberto/Devel/Monopoly/src/Player.cpp
+	<iostream>
+	"Player.h"
+
+1390895259 /home/alberto/Devel/Monopoly/include/Player.h
+	<string>
+	"Board.h"
+	"Cell.h"
+	"Die.h"
+
+1390893034 source:/home/alberto/Devel/Monopoly/src/Player_unittest.cpp
+	"Player_unittest.h"
+	"FixedDie.h"
+	"Player.h"
+	"GameBoard.h"
+
+1390863494 /home/alberto/Devel/Monopoly/include/Player_unittest.h
+	<assert.h>
+	"Player.h"
+
+1390895332 source:/home/alberto/Devel/Monopoly/src/Game.cpp
+	<algorithm>
+	<iostream>
+	<vector>
+	"Game.h"
+
+1390895200 /home/alberto/Devel/Monopoly/include/Game.h
+	<vector>
+	"Player.h"
+	"GameBoard.h"
+	"Die.h"
+
+1390895505 /home/alberto/Devel/Monopoly/include/Game_unittest.h
+	<Game.h>
+
+1390895685 source:/home/alberto/Devel/Monopoly/src/Game_unittest.cpp
+	<algorithm>
+	<vector>
+	"Game_unittest.h"
+	"Player.h"
+
